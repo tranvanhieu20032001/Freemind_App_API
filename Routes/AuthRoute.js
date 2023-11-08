@@ -6,5 +6,5 @@ const router = express.Router()
 
 // router.get('/',async(req,res)=>{res.send("Auth Route")})
 router.post("/register",registerUser)
-router.get("/login",loginUser)
+router.post("/login",loginUser)
 export default router
